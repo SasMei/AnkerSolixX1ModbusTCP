@@ -1249,7 +1249,7 @@ SENSOR_DEFINITIONS:
         enabled_by_default: true
         data_type: uint16
         precision: 1
-        scan_interval: 
+        scan_interval: medium
 
     # ========================================================================
     # CLASSIFICATION 8 : Battery  Information
