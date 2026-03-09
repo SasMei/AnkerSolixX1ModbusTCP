@@ -1499,7 +1499,7 @@ SENSOR_DEFINITIONS:
         scale: 0.1
         unit: "kWh"
         device_class: "energy"
-        state_class: "measurement"
+        state_class: "total_increasing"
         enabled_by_default: true
         data_type: uint32
         precision: 1
@@ -1637,7 +1637,7 @@ SENSOR_DEFINITIONS:
         scale: 0.1
         unit: "kWh"
         device_class: "energy"
-        state_class: "measurement"
+        state_class: "total_increasing"
         enabled_by_default: true
         data_type: uint32
         precision: 1
