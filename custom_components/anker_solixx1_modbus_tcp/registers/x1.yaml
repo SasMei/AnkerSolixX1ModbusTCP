@@ -35,6 +35,11 @@ SENSOR_DEFINITIONS:
         data_type: uint16
         precision: 1
         scan_interval: low
+        states:
+        1: On-Grid
+        2: Off-Grid
+        3: Standby
+        4: Fault
 
     info_battery_status:
         register: 10001
