@@ -66,7 +66,13 @@
   "entity": {
     "sensor": {
       "plant_status": {
-        "name": "Plant Status"
+        "name": "Plant Status",
+        "state": {
+          "1": "On-Grid",
+          "2": "Off-Grid",
+          "3": "Standby",
+          "4": "Fault"
+        }
       },
       "info_battery_status": {
         "name": "Info Battery Status"
